@@ -8,7 +8,7 @@ build:
 
 build-domain-in-home-image:
   box:
-      id: alpine
+      id: oraclelinux
       cmd: /bin/sh
   docker: true
   steps:
